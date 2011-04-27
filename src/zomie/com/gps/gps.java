@@ -61,6 +61,7 @@ public void onLocationChanged(Location loc)
 	loc.getAltitude();
 	loc.getTime();
 	loc.getBearing();
+	
 	*/
 
 	String Text = "My current location is: " + " Time = " + loc.getTime() + " Latitud = " + loc.getLatitude() + "Longitud = " + loc.getLongitude() + "speed = " + loc.getSpeed() + "Altitude = " + loc.getAltitude() + "Bearing = " + loc.getBearing();
